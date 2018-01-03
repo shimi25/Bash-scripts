@@ -1,5 +1,4 @@
-
-#!/bin/bash
+#!/bin/sh
 WP_DOMAIN="wordpress.shimon.bitton"
 WP_ADMIN_USERNAME="admin"
 WP_ADMIN_PASSWORD="admin"
