@@ -13,7 +13,6 @@ MYSQL_ROOT_PASSWORD="1234567890"
 
 # Installation
 
-sudo apt-get update && apt-get upgrade -y
 echo "mysql-server-5.7 mysql-server/root_password password $MYSQL_ROOT_PASSWORD" | sudo debconf-set-selections
 echo "mysql-server-5.7 mysql-server/root_password_again password $MYSQL_ROOT_PASSWORD" | sudo debconf-set-selections
 sudo apt-get install -y lamp-server^
